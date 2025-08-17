@@ -1,0 +1,46 @@
+
+body{
+    background:oklch(71.8% 0.202 349.761);
+ color: oklch(39.129% 0.10099 348.786 / 0.332);
+padding-block: 25px;
+font-family: "Gloria Hallelujah", cursive;
+    
+}
+
+div{
+    background: oklch(90.3% 0.076 319.62);
+    width: 80%;
+    max-width: 900px; 
+    padding: 28px;
+    margin-inline: auto;
+    border-radius:  15px;
+}
+img{
+    width: 100%;
+}
+p{
+    line-height: 25px;
+}
+
+h1,p{
+    text-align: center;
+}
+   .assinatura {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #ffe6f1;
+    color: #ff4da6; 
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 2px solid #ff99cc; 
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+}
+
+.assinatura:hover {
+    transform: scale(1.1) rotate(-2deg); 
+}
